@@ -1,0 +1,106 @@
+.portrait-book-section { margin-top: 28px; }
+.portrait-book-stage { padding: 30px 26px 45px; background: radial-gradient(ellipse at center,#eae3db66 0%,transparent 72%); perspective: 1800px; }
+.portrait-book { position: relative; width: min(100%,1000px); aspect-ratio: 1.55; margin: auto; background: #e5ddd3; border-radius: 12px; box-shadow: 0 2px 0 #eee8e0,0 4px 0 #d9d1c6,0 16px 36px #51433514; transform: rotateX(2deg); transform-style: preserve-3d; }
+.portrait-book-spread { position: absolute; inset: 0; display: flex; }
+.portrait-book-spread[hidden] { display: none; }
+.portrait-book-page { position: relative; width: 50%; height: 100%; padding: 7% 5% 6%; overflow: hidden; box-sizing: border-box; background-color: #fcfaf6; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23a18d6c' opacity='.025' filter='url(%23n)' d='M0 0h150v150H0z'/%3E%3C/svg%3E"); }
+.portrait-book-left { border-radius: 12px 0 0 12px; box-shadow: inset -14px 0 20px -17px #63574655; }
+.portrait-book-right { border-radius: 0 12px 12px 0; box-shadow: inset 14px 0 20px -17px #63574655; }
+.portrait-book-spine { position: absolute; top: 0; bottom: 0; left: calc(50% - 8px); width: 16px; z-index: 8; pointer-events: none; background: linear-gradient(90deg,transparent,#665b4510 38%,#665b4524 49%,#fff9 52%,#665b4510 62%,transparent); }
+.portrait-book-photo { display: block; border: 0; padding: 0; background: transparent; cursor: zoom-in; width: 100%; }
+.portrait-book-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.portrait-book-note { color: var(--ink); margin-bottom: 9%; }
+.portrait-book-note small { font-size: clamp(7px,.85vw,11px); letter-spacing: .13em; color: var(--accent); }
+.portrait-book-note h4 { font-family: inherit; font-size: clamp(17px,2.3vw,30px); font-weight: 500; letter-spacing: -.035em; line-height: 1.35; margin: 12px 0; }
+.portrait-book-note p { font-size: clamp(8px,1vw,12px); line-height: 1.7; margin: 0; color: var(--muted); }
+.book-image-landscape { height: 45%; width: 100%; margin-top: 7%; }
+.book-image-tall { height: 86%; width: 84%; margin: 0 auto; }
+.book-image-tall img { object-fit: contain; }
+.book-image-offset { height: 82%; width: 88%; margin: 0 auto; }
+.book-image-offset img { object-fit: contain; }
+.book-image-flowers { height: 49%; margin-top: 2%; }
+.book-note-bottom { margin-top: 10%; margin-left: 0; }
+.book-image-archive { height: 67%; }
+.book-image-archive img { object-fit: contain; }
+.portrait-book-caption { font-size: clamp(8px,1vw,12px); color: var(--muted); margin: 5% 0 0; text-align: center; }
+.portrait-book-folio { position: absolute; bottom: 3%; left: 10%; right: 10%; display: flex; justify-content: space-between; font-size: clamp(6px,.75vw,9px); letter-spacing: .12em; color: var(--muted); }
+.portrait-book-folio b { font-weight: 400; }
+.portrait-book-controls { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 12px; color: var(--muted); }
+.portrait-book-controls > div { display: flex; align-items: center; gap: 12px; }
+.portrait-book-controls button { font: inherit; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); background: transparent; cursor: pointer; }
+.portrait-book-controls button:disabled { opacity: .45; }
+.portrait-book-sheet { position: absolute; z-index: 10; top: 0; left: 50%; width: 50%; height: 100%; transform-origin: left center; transform-style: preserve-3d; pointer-events: none; }
+.portrait-book-sheet > .portrait-book-page { position: absolute; inset: 0; width: 100%; backface-visibility: hidden; padding: 14% 10% 12%; }
+.portrait-book-sheet > .book-sheet-back { transform: rotateY(180deg); }
+.portrait-book-hold { position: absolute; top: 0; left: 0; z-index: 9; pointer-events: none; padding: 7% 5% 6%; }
+@media(max-width:700px) { .portrait-book-stage { padding: 16px 0 30px; } .portrait-book { aspect-ratio: 1.4; } .portrait-book-controls { flex-direction: column; align-items: center; } .portrait-book-hint { font-size: 10px; text-align: center; } .portrait-book-controls > div { gap: 8px; } .portrait-book-note h4 { margin: 6px 0; } }
+@media(prefers-reduced-motion:reduce) { .portrait-book { transform: none; } }
+
+.portrait-book-photo { border-radius: 5px; overflow: hidden; }
+.portrait-book-controls { padding-top: 16px; border-top: 1px solid var(--line); }
+.portrait-book-controls button { background: #ffffff66; transition: background .2s ease; }
+.portrait-book-controls button:hover { background: #eee4d6; }
+
+/* Opening page: small upright floral study and a landscape portrait. */
+.book-opening-layout { height: 91%; display: grid; grid-template-columns: 1.15fr 1fr; grid-template-rows: 47% 45%; gap: 8% 8%; align-items: start; }
+.book-opening-layout .portrait-book-note { margin: 0; align-self: center; }
+.book-opening-layout .portrait-book-note h4 { font-size: clamp(14px,1.9vw,25px); }
+.book-opening-layout .portrait-book-note small { font-size: clamp(6px,.7vw,9px); letter-spacing: .08em; }
+.book-opening-flowers { width: 100%; height: 100%; grid-column: 2; grid-row: 1; }
+.book-opening-flowers img { object-fit: cover; object-position: 52% 50%; }
+.book-opening-portrait { grid-column: 1 / -1; grid-row: 2; width: 100%; height: 100%; }
+.book-opening-portrait img { object-fit: cover; object-position: center; }
+
+/* A quiet opening spread, with the floral image tucked into the upper corner. */
+.book-opening-layout { position: absolute; top: 6%; right: 7%; bottom: 14%; left: 9%; height: auto; grid-template-columns: 1.25fr 1fr; grid-template-rows: 49% 43%; gap: 8% 8%; }
+.book-opening-layout .book-opening-label { align-self: end; margin-bottom: 6%; }
+.book-opening-label small { color: var(--muted); }
+.book-opening-label p { margin-top: 9px; font-size: clamp(9px,1.1vw,13px); letter-spacing: .06em; }
+.book-opening-flowers { justify-self: end; align-self: start; }
+
+/* Floral study at the upper-left of the opening page. */
+.book-opening-layout { grid-template-columns: 1fr 1.25fr; }
+.book-opening-layout .book-opening-flowers { grid-column: 1; grid-row: 1; justify-self: start; }
+.book-opening-layout .book-opening-label { grid-column: 2; grid-row: 1; }
+
+/* Smaller floral study in the upper-left corner. */
+.book-opening-layout .book-opening-flowers { grid-column: 1; grid-row: 1; width: 72%; height: 82%; justify-self: start; align-self: start; }
+.book-opening-layout .book-opening-label { grid-column: 2; grid-row: 1; align-self: end; margin-bottom: 12%; }
+
+.book-opening-layout .book-opening-flowers { align-self: center; }
+
+/* Spring portraits: two complete vertical photographs on each page. */
+.book-spring-layout { position: absolute; inset: 8% 7% 12%; }
+.book-spring-layout .portrait-book-photo { position: absolute; height: auto; }
+.book-spring-layout .portrait-book-photo img { width: 100%; height: auto; object-fit: contain; }
+.book-spring-main { width: 57%; }
+.book-spring-small { width: 37%; }
+.book-spring-left .book-spring-main { left: 0; top: 12%; }
+.book-spring-left .book-spring-small { right: 0; bottom: 5%; }
+.book-spring-right .book-spring-main { left: 0; top: 3%; }
+.book-spring-right .book-spring-small { right: 0; bottom: 13%; }
+.book-spring-label { position: absolute; font-size: clamp(7px,.8vw,11px); letter-spacing: .10em; color: var(--muted); }
+.book-spring-left .book-spring-label { left: 0; top: 0; }
+.book-spring-right .book-spring-label { right: 0; bottom: 0; }
+
+/* Final spread: paired portraits and a landscape/detail composition. */
+.book-meadow-layout { position: absolute; inset: 9% 7% 12%; }
+.book-meadow-layout .portrait-book-photo { position: absolute; height: auto; }
+.book-meadow-layout .portrait-book-photo img { display: block; width: 100%; height: auto; object-fit: contain; }
+.book-meadow-label { position: absolute; top: 0; left: 0; color: var(--muted); font-size: clamp(7px,.8vw,11px); letter-spacing: .1em; }
+.book-meadow-first { width: 47%; left: 0; top: 13%; }
+.book-meadow-second { width: 47%; right: 0; bottom: 7%; }
+.book-meadow-wide { width: 88%; left: 0; top: 3%; }
+.book-meadow-lower { width: 65%; left: 0; bottom: 4%; }
+.book-meadow-detail { width: 29%; right: 0; bottom: 4%; }
+
+/* Graduation: a leading portrait with two studies, followed by paired campus stories. */
+.book-graduation-layout { position: absolute; inset: 9% 7% 12%; }
+.book-graduation-layout .portrait-book-photo { position: absolute; height: auto; }
+.book-graduation-layout .portrait-book-photo img { display: block; width: 100%; height: auto; object-fit: contain; }
+.book-graduation-label { position: absolute; top: 0; left: 0; color: var(--muted); font-size: clamp(7px,.8vw,11px); letter-spacing: .1em; }
+.book-graduation-main { width: 56%; left: 0; top: 15%; }
+.book-graduation-cap { width: 33%; right: 0; top: 0; }
+.book-graduation-campus { width: 33%; right: 0; bottom: 0; }
+.book-graduation-classroom { width: 46%; left: 0; top: 4%; }
+.book-graduation-outdoors { width: 46%; right: 0; bottom: 4%; }

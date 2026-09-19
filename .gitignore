@@ -1,0 +1,9 @@
+node_modules/
+backups/
+deployment/
+artifacts/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

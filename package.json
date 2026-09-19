@@ -1,0 +1,15 @@
+{
+  "name": "chen-yue-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "陈悦个人作品集静态网站源码",
+  "scripts": {
+    "build": "node build.cjs",
+    "start": "node serve.cjs",
+    "preview": "node serve.cjs",
+    "package": "node package.cjs",
+    "validate:exhibits": "node validate-exhibits.cjs",
+    "test:gpt-api": "node test-gpt-api.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
