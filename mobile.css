@@ -1,0 +1,73 @@
+/* Phone and tablet layout; desktop composition remains in the existing stylesheets. */
+@media (max-width: 900px) {
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body { overflow-x: clip; }
+  #work .project-scene,
+  #work .project-scene.scene-left {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    min-height: 0;
+    margin-inline: 0;
+    padding: 36px 0;
+  }
+  #work .project-scene .card-image {
+    order: -1;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    max-height: 400px;
+    aspect-ratio: 4 / 3;
+    border-radius: 20px;
+    transform: none !important;
+    clip-path: none !important;
+    opacity: 1 !important;
+  }
+  #work .project-scene .card-image img { object-fit: contain; transform: none; }
+  #work .project-scene .card-copy {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    min-height: 0;
+    padding: 0;
+  }
+  #work .project-scene .card-copy > * { transform: none !important; }
+  #work .project-scene .card-copy .scene-no { font-size: 44px; margin: 0; }
+  #work .project-scene .card-copy .scene-name { font-size: 28px; line-height: 1.35; margin-top: 16px; }
+  #work .project-scene .card-copy .scene-tagline {
+    font-size: 19px;
+    white-space: normal;
+    max-width: none;
+    margin-top: 14px;
+    line-height: 1.6;
+  }
+  #work .project-scene .card-copy .scene-summary { font-size: 15px; margin-top: 14px; }
+  #work .project-scene .card-result,
+  #work .project-scene[data-project="mazoo"] .card-result {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+  }
+  #work .project-scene .card-result .metric { flex-wrap: wrap; gap: 6px; }
+  #work .project-scene .card-result .metric-number { font-size: 26px; }
+  #work .project-scene .scene-more { min-height: 44px; }
+  .ai-translation .ai-story.ai-wrap { grid-template-columns: minmax(0, 1fr); }
+  .ai-story-copy, .ai-story-visuals, .ai-story-step, .ai-step-copy { min-width: 0; }
+}
+
+@media (max-width: 700px) {
+  .wrap { width: calc(100% - 36px); }
+  .hero, .workflow, .skills-layout, .contact-grid { min-width: 0; }
+  .hero h1 { font-size: clamp(30px, 8.4vw, 39px); }
+  .section-heading h2 { font-size: clamp(25px, 7vw, 30px); }
+  .hero-portrait { width: min(78%, 320px); }
+  .stats { gap: 24px 16px; }
+  .impact .stats strong, .case-results .stats strong { font-size: clamp(34px, 10vw, 48px); }
+  .contact-grid a { overflow-wrap: anywhere; }
+  .fudo-gallery-controls { gap: 12px; align-items: flex-start; }
+  .fudo-gallery-controls button { flex-shrink: 0; min-height: 44px; }
+  .fudo-scroll-card .zoom { height: min(80vw, 390px); }
+  .next-project { gap: 20px; flex-wrap: wrap; }
+}

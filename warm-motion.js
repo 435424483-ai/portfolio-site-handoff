@@ -19,6 +19,7 @@
  const taglines=[...document.querySelectorAll('#work .scene-tagline')];if(!taglines.length)return;
  const fit=el=>{
   el.style.fontSize='';
+  if(matchMedia('(max-width: 900px)').matches)return;
   const preferred=parseFloat(getComputedStyle(el).fontSize);
   const width=el.clientWidth;if(!width)return;
   if(el.scrollWidth>width)el.style.fontSize=(Math.floor(preferred*width/el.scrollWidth*10)/10)+'px';

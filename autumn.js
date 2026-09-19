@@ -61,7 +61,7 @@ if('IntersectionObserver' in window){
  };
  const tick=time=>{
    frame=0;
-   if(reducedMotion.matches){
+   if(reducedMotion.matches || mobile.matches){
      scenes.forEach(scene=>{
        scene.element.classList.remove('scroll-linked');
        [scene.image,...scene.text].forEach(element=>{
