@@ -4,7 +4,7 @@
   font-weight: 700;
   line-height: 1.3;
   letter-spacing: .06em;
-  color: #713e28;
+  color: #211d1a;
 }
 #intro .hero-name span { margin-top: 12px; letter-spacing: 0; }
 #main a.return-home {
@@ -14,19 +14,40 @@
   width: max-content;
   min-height: 48px;
   padding: 11px 24px;
-  border: 1px solid #934321;
+  border: 1px solid var(--return-border, #bba58f);
   border-radius: 999px;
-  background: #934321;
-  color: #fff;
+  background: var(--return-bg, #f5eee6);
+  color: var(--return-ink, #59483b);
   font-size: 17px;
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0;
   text-decoration: none;
-  box-shadow: 0 5px 16px #4935261f;
+  box-shadow: 0 5px 18px var(--return-shadow, #49352612);
 }
-#main a.return-home:hover { background: #75351b; border-color: #75351b; }
-#main a.return-home:focus-visible { outline: 3px solid #934321; outline-offset: 4px; }
+#main a.return-home:hover { background: var(--return-hover, #ecdfd2); border-color: var(--return-accent, #96745b); }
+#main a.return-home:focus-visible { outline: 3px solid var(--return-accent, #96745b); outline-offset: 4px; }
+
+/* Each project keeps its own visual language. */
+body:has(.ai-case) { --return-bg:#f0effd; --return-hover:#e5e3fa; --return-border:#cbc8ef; --return-ink:#525fb7; --return-accent:#6875d8; --return-shadow:#6875d81a; }
+body:has(.mazoo-rebrand) { --return-bg:#fff0f4; --return-hover:#fce3e9; --return-border:#efbfd0; --return-ink:#a64f6b; --return-accent:#d97a97; --return-shadow:#d97a971c; }
+body:has(.case-top[data-project="museum"]) { --return-bg:#f4ede3; --return-hover:#eadcca; --return-border:#d8b995; --return-ink:#865527; --return-accent:#a06428; --return-shadow:#a0642819; }
+body:has(.case-top[data-project="cichutingchao"]) { --return-bg:#edf2e9; --return-hover:#e1eadb; --return-border:#bdcbaa; --return-ink:#5f7651; --return-accent:#7f986d; --return-shadow:#61795619; }
+
+/* Homepage project actions use the same four project accents. */
+#work .project-scene.blue .scene-more { background:#6875d8; border-color:#6875d8; box-shadow:0 6px 18px #6875d823; }
+#work .project-scene.red .scene-more { background:#d97a97; border-color:#d97a97; box-shadow:0 6px 18px #d97a9723; }
+#work .project-scene.green .scene-more { background:#a06428; border-color:#a06428; box-shadow:0 6px 18px #a0642821; }
+#work .project-scene.teal .scene-more { background:#7f986d; border-color:#7f986d; box-shadow:0 6px 18px #61795621; }
+#work .project-scene.blue .scene-more:hover { background:#5663c2; }
+#work .project-scene.red .scene-more:hover { background:#c86684; }
+#work .project-scene.green .scene-more:hover { background:#87531f; }
+#work .project-scene.teal .scene-more:hover { background:#6d865d; }
+
+body:has(.ai-case) .mobile-home-link { background:#f0effdf5; border-color:#cbc8ef; color:#525fb7; box-shadow:0 6px 24px #6875d81a; }
+body:has(.mazoo-rebrand) .mobile-home-link { background:#fff0f4f5; border-color:#efbfd0; color:#a64f6b; box-shadow:0 6px 24px #d97a971c; }
+body:has(.case-top[data-project="museum"]) .mobile-home-link { background:#f4ede3f5; border-color:#d8b995; color:#865527; box-shadow:0 6px 24px #a0642819; }
+body:has(.case-top[data-project="cichutingchao"]) .mobile-home-link { background:#edf2e9f5; border-color:#bdcbaa; color:#5f7651; box-shadow:0 6px 24px #61795619; }
 @media (hover: none) and (pointer: coarse) {
   #intro .hero-name { font-size: 50px; }
   #main a.return-home { min-height: 96px; padding: 18px 32px; font-size: 30px; }
