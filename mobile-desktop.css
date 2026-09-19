@@ -7,4 +7,34 @@
   #work .project-scene .card-image,
   #work .project-scene .card-copy { min-height: 620px; }
   #work .project-scene .card-image { height: auto; }
+  #work .project-scene .scene-more {
+    min-width: 300px;
+    min-height: 112px;
+    padding: 22px 38px;
+    font-size: 34px;
+    font-weight: 600;
+    border-width: 2px;
+    background: #934321;
+    box-shadow: 0 10px 26px #93432130;
+  }
+  #work .project-scene .card-copy p.scene-summary { font-size: 20px; line-height: 1.8; }
+  #work .project-scene .card-result small.metric-label,
+  #work .project-scene[data-project="mazoo"] .card-result .metric-label { font-size: 16px; }
+  .mobile-home-link {
+    position: fixed;
+    left: 28px;
+    bottom: 30px;
+    z-index: 30;
+    display: inline-flex;
+    align-items: center;
+    min-height: 112px;
+    padding: 20px 32px;
+    border: 2px solid #b69177;
+    border-radius: 60px;
+    background: #fffaf5f5;
+    color: #713e28;
+    font: 600 32px/1.5 Arial, 'Microsoft YaHei', sans-serif;
+    box-shadow: 0 6px 24px #49352620;
+  }
+  body:has(dialog[open]) .mobile-home-link { display: none; }
 }
