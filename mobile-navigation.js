@@ -31,9 +31,9 @@
   };
   const back = document.createElement('a');
   back.className = 'mobile-home-link';
-  back.href = home.href;
-  back.textContent = '← 返回作品集';
-  back.addEventListener('click', event => { event.preventDefault(); returnHome(); });
+  back.href = new URL('../../index.html#intro', location.href).href;
+  back.textContent = '← 返回首页';
+  back.addEventListener('click', event => { event.preventDefault(); markReturn(); location.replace(back.href); });
   document.body.append(back);
   // Supplement browser Back where a webview delivers edge touches to the page.
   // Do not intercept vertical scrolling, pinch zoom, galleries or native Back.

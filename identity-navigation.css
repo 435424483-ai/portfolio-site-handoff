@@ -1,0 +1,33 @@
+/* Clear personal identity and consistent homepage return actions. */
+#intro .hero-name {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: .06em;
+  color: #713e28;
+}
+#intro .hero-name span { margin-top: 12px; letter-spacing: 0; }
+#main a.return-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  min-height: 48px;
+  padding: 11px 24px;
+  border: 1px solid #934321;
+  border-radius: 999px;
+  background: #934321;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-decoration: none;
+  box-shadow: 0 5px 16px #4935261f;
+}
+#main a.return-home:hover { background: #75351b; border-color: #75351b; }
+#main a.return-home:focus-visible { outline: 3px solid #934321; outline-offset: 4px; }
+@media (hover: none) and (pointer: coarse) {
+  #intro .hero-name { font-size: 50px; }
+  #main a.return-home { min-height: 96px; padding: 18px 32px; font-size: 30px; }
+}
