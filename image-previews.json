@@ -1,0 +1,682 @@
+{
+  "assets/portrait.jpg": {
+    "file": "assets/previews/56173c8ca86b71785fca.webp",
+    "originalBytes": 71933,
+    "previewBytes": 48590
+  },
+  "assets/2026/s8_4.jpg": {
+    "file": "assets/previews/e451ec89d7f2d20eff68.webp",
+    "originalBytes": 104440,
+    "previewBytes": 60440
+  },
+  "assets/cichutingchao/project-cover-v2.jpg": {
+    "file": "assets/previews/55a4021cf4002daf0ebd.webp",
+    "originalBytes": 42970,
+    "previewBytes": 26136
+  },
+  "assets/2026/s3_9.jpg": {
+    "file": "assets/previews/9abc803744b04e36c03a.webp",
+    "originalBytes": 310034,
+    "previewBytes": 163544
+  },
+  "assets/2026/s28_1.jpg": {
+    "file": "assets/previews/c06f0af6fae8c082ac01.webp",
+    "originalBytes": 119026,
+    "previewBytes": 46408
+  },
+  "assets/2026/s27_1.jpg": {
+    "file": "assets/previews/fdf88e0d183fea251f7c.webp",
+    "originalBytes": 459104,
+    "previewBytes": 74138
+  },
+  "assets/fudo-details/detail-12.png": {
+    "file": "assets/previews/6b1f19880c473b9f7098.webp",
+    "originalBytes": 390391,
+    "previewBytes": 28800
+  },
+  "assets/rabbit/back.jpg": {
+    "file": "assets/previews/22186916b7cb328b3ef3.webp",
+    "originalBytes": 64787,
+    "previewBytes": 22826
+  },
+  "assets/fudo-details/detail-9.png": {
+    "file": "assets/previews/ca73e158223233b2f3ed.webp",
+    "originalBytes": 1154892,
+    "previewBytes": 52872
+  },
+  "assets/rabbit/humidifier.jpg": {
+    "file": "assets/previews/29c15c9efee9fb2f8a54.webp",
+    "originalBytes": 31719,
+    "previewBytes": 12324
+  },
+  "assets/rabbit/nightlight.jpg": {
+    "file": "assets/previews/a8d5cab60870443069dd.webp",
+    "originalBytes": 45960,
+    "previewBytes": 16556
+  },
+  "assets/rabbit/front.png": {
+    "file": "assets/previews/14fda41a766522e64779.webp",
+    "originalBytes": 854539,
+    "previewBytes": 34476
+  },
+  "assets/mazoo/phone-cover-hd.png": {
+    "file": "assets/previews/d621dbe61397818b8dfa.webp",
+    "originalBytes": 6074159,
+    "previewBytes": 72390
+  },
+  "assets/wangchuan/opera.jpg": {
+    "file": "assets/previews/1e05ef4a81b58bbe3bd4.webp",
+    "originalBytes": 295297,
+    "previewBytes": 191774
+  },
+  "assets/2026/s33_2.jpg": {
+    "file": "assets/previews/a76aa961242805422b5b.webp",
+    "originalBytes": 380086,
+    "previewBytes": 175544
+  },
+  "assets/2026/s33_3.jpg": {
+    "file": "assets/previews/9f62b6ffba6cb18fdab2.webp",
+    "originalBytes": 503010,
+    "previewBytes": 233154
+  },
+  "assets/2026/s33_5.jpg": {
+    "file": "assets/previews/72f404488f6cdea33d4b.webp",
+    "originalBytes": 294432,
+    "previewBytes": 211898
+  },
+  "assets/wangchuan/night-ritual.jpg": {
+    "file": "assets/previews/716750c4daa412427c5b.webp",
+    "originalBytes": 165312,
+    "previewBytes": 118102
+  },
+  "assets/portrait-book/street.jpg": {
+    "file": "assets/previews/342c3648caad36ac678d.webp",
+    "originalBytes": 181894,
+    "previewBytes": 124386
+  },
+  "assets/portrait-book/spring-willow.jpg": {
+    "file": "assets/previews/d0076b0f968a362f101d.webp",
+    "originalBytes": 590219,
+    "previewBytes": 50236
+  },
+  "assets/portrait-book/sunlight.jpg": {
+    "file": "assets/previews/f36cfa9dfdcb11354a74.webp",
+    "originalBytes": 412475,
+    "previewBytes": 253298
+  },
+  "assets/portrait-book/flowers.jpg": {
+    "file": "assets/previews/ad4e9153cc0c87ea5641.webp",
+    "originalBytes": 15207274,
+    "previewBytes": 430558
+  },
+  "assets/portrait-book/spring-details.jpg": {
+    "file": "assets/previews/939994b3a774399326f6.webp",
+    "originalBytes": 2174322,
+    "previewBytes": 135902
+  },
+  "assets/portrait-book/spring-motion.jpg": {
+    "file": "assets/previews/f1e196f00d656f96b864.webp",
+    "originalBytes": 7776696,
+    "previewBytes": 113150
+  },
+  "assets/portrait-book/meadow-flower.jpg": {
+    "file": "assets/previews/b4adee3c6fb43ad5c61f.webp",
+    "originalBytes": 7226355,
+    "previewBytes": 140134
+  },
+  "assets/portrait-book/spring-light.jpg": {
+    "file": "assets/previews/d8d5db56d48c36796d01.webp",
+    "originalBytes": 8550961,
+    "previewBytes": 77886
+  },
+  "assets/portrait-book/meadow-fence-01.jpg": {
+    "file": "assets/previews/806bc8a710c1263f913f.webp",
+    "originalBytes": 8408174,
+    "previewBytes": 114962
+  },
+  "assets/portrait-book/meadow-seated.jpg": {
+    "file": "assets/previews/149f24aa22e4d0073421.webp",
+    "originalBytes": 8620979,
+    "previewBytes": 237276
+  },
+  "assets/portrait-book/meadow-fence-02.jpg": {
+    "file": "assets/previews/6aa66b1fc8be12994c9a.webp",
+    "originalBytes": 8256107,
+    "previewBytes": 118202
+  },
+  "assets/portrait-book/graduation-together.jpg": {
+    "file": "assets/previews/f00a51cf115814467d6d.webp",
+    "originalBytes": 157365,
+    "previewBytes": 98094
+  },
+  "assets/portrait-book/graduation-cap.jpg": {
+    "file": "assets/previews/b629fbb2cfcbb1ef6f65.webp",
+    "originalBytes": 893023,
+    "previewBytes": 166136
+  },
+  "assets/portrait-book/graduation-campus.jpg": {
+    "file": "assets/previews/6be3144bccb800d9e2dd.webp",
+    "originalBytes": 219973,
+    "previewBytes": 124884
+  },
+  "assets/portrait-book/graduation-classroom.jpg": {
+    "file": "assets/previews/e95279b2c6cd036541b0.webp",
+    "originalBytes": 143957,
+    "previewBytes": 71816
+  },
+  "assets/portrait-book/graduation-outdoors.jpg": {
+    "file": "assets/previews/eb5e2bf136d64b33348f.webp",
+    "originalBytes": 300234,
+    "previewBytes": 199534
+  },
+  "assets/ai-campus/audience-school.png": {
+    "file": "assets/previews/2b034df4703a0f5186d7.webp",
+    "originalBytes": 2445702,
+    "previewBytes": 103782
+  },
+  "assets/portrait-book/meadow-dandelion.jpg": {
+    "file": "assets/previews/f107de9bf0325274503e.webp",
+    "originalBytes": 3161656,
+    "previewBytes": 66926
+  },
+  "assets/ai-campus/audience-government.png": {
+    "file": "assets/previews/fafa7aa569cc5a56452e.webp",
+    "originalBytes": 3235333,
+    "previewBytes": 100522
+  },
+  "assets/ai-raw/competition.png": {
+    "file": "assets/previews/e735b1f032da2d2f7467.webp",
+    "originalBytes": 775818,
+    "previewBytes": 116162
+  },
+  "assets/ai-campus/audience-teacher.png": {
+    "file": "assets/previews/a78e761012a5e7f5e5da.webp",
+    "originalBytes": 2290128,
+    "previewBytes": 94058
+  },
+  "assets/ai-raw/framework.png": {
+    "file": "assets/previews/14ebb229928a4d88f563.webp",
+    "originalBytes": 397937,
+    "previewBytes": 87338
+  },
+  "assets/ai-raw/practice.png": {
+    "file": "assets/previews/119e7a5dd3727ee97e8a.webp",
+    "originalBytes": 624387,
+    "previewBytes": 209826
+  },
+  "assets/ai-raw/feedback.png": {
+    "file": "assets/previews/8acfdf2c9ed7782d5d3e.webp",
+    "originalBytes": 378541,
+    "previewBytes": 94560
+  },
+  "assets/ai-communication/deck-2.jpg": {
+    "file": "assets/previews/b1590fe7aa28a65f674d.webp",
+    "originalBytes": 1661763,
+    "previewBytes": 140676
+  },
+  "assets/ai-communication/deck-5.jpg": {
+    "file": "assets/previews/08d08cd60225f3b78257.webp",
+    "originalBytes": 2121409,
+    "previewBytes": 204894
+  },
+  "assets/ai-communication/deck-3.jpg": {
+    "file": "assets/previews/560160f055a6fdd2ce74.webp",
+    "originalBytes": 1842553,
+    "previewBytes": 172258
+  },
+  "assets/ai-communication/deck-4.jpg": {
+    "file": "assets/previews/71ab1b7add1a4c1c5723.webp",
+    "originalBytes": 1883960,
+    "previewBytes": 175648
+  },
+  "assets/ai-campus/training-hd-01.jpg": {
+    "file": "assets/previews/91fb074946d8bac9ec0b.webp",
+    "originalBytes": 1461995,
+    "previewBytes": 107168
+  },
+  "assets/ai-communication/deck-1.jpg": {
+    "file": "assets/previews/6dbb5a45b82a0a57575c.webp",
+    "originalBytes": 1410587,
+    "previewBytes": 139996
+  },
+  "assets/ai-campus/training-hd-02.jpg": {
+    "file": "assets/previews/c94cd635904e8aaf3cbf.webp",
+    "originalBytes": 1826177,
+    "previewBytes": 149268
+  },
+  "assets/2026/s3_1.jpg": {
+    "file": "assets/previews/30ce5be06dabedef34a2.webp",
+    "originalBytes": 255741,
+    "previewBytes": 120876
+  },
+  "assets/ai-campus/classroom-training.jpg": {
+    "file": "assets/previews/3afac81b30ee0e01fe64.webp",
+    "originalBytes": 939603,
+    "previewBytes": 213906
+  },
+  "assets/ai-campus/version-03.jpg": {
+    "file": "assets/previews/65b013ef6c461edb84a5.webp",
+    "originalBytes": 539359,
+    "previewBytes": 117924
+  },
+  "assets/2026/s4_3.jpg": {
+    "file": "assets/previews/eb02f24d6d15f73a155a.webp",
+    "originalBytes": 172331,
+    "previewBytes": 50646
+  },
+  "assets/ai-campus/course-meeting-01.png": {
+    "file": "assets/previews/45aed9d522462b994faf.webp",
+    "originalBytes": 214730,
+    "previewBytes": 117522
+  },
+  "assets/2026/s3_2.jpg": {
+    "file": "assets/previews/0f48b0e476bb009f92d3.webp",
+    "originalBytes": 596690,
+    "previewBytes": 228716
+  },
+  "assets/ai-campus/course-meeting-02.png": {
+    "file": "assets/previews/b65c51b2c1c052267e06.webp",
+    "originalBytes": 162853,
+    "previewBytes": 110384
+  },
+  "assets/ai-campus/course-prompt.jpg": {
+    "file": "assets/previews/1f5f40eee5ddc722aead.webp",
+    "originalBytes": 1141558,
+    "previewBytes": 145754
+  },
+  "assets/ai-campus/course-workflow.jpg": {
+    "file": "assets/previews/3a4787c16da9cd3e4d95.webp",
+    "originalBytes": 1205032,
+    "previewBytes": 118178
+  },
+  "assets/ai-campus/course-knowledge.jpg": {
+    "file": "assets/previews/296bb072f0dcd389baf7.webp",
+    "originalBytes": 1239697,
+    "previewBytes": 130874
+  },
+  "assets/ai-campus/wechat-cover-start.jpg": {
+    "file": "assets/previews/89667bea0444fb1fd9d4.webp",
+    "originalBytes": 83138,
+    "previewBytes": 48634
+  },
+  "assets/ai-campus/wechat-cover-recruit.jpg": {
+    "file": "assets/previews/0ba63967e2e317a6e77a.webp",
+    "originalBytes": 125503,
+    "previewBytes": 85174
+  },
+  "assets/ai-campus/wechat-cover-finish.jpg": {
+    "file": "assets/previews/233e125c61c81e6528a8.webp",
+    "originalBytes": 114772,
+    "previewBytes": 73868
+  },
+  "assets/ai-campus/agent-welcome.png": {
+    "file": "assets/previews/a9deb1ba43925be884fd.webp",
+    "originalBytes": 203516,
+    "previewBytes": 74218
+  },
+  "assets/ai-campus/teacher-camp-poster.jpg": {
+    "file": "assets/previews/5073d0180ff222c621de.webp",
+    "originalBytes": 3804246,
+    "previewBytes": 247628
+  },
+  "assets/ai-campus/agent-question.png": {
+    "file": "assets/previews/050840ea90c9c43322ac.webp",
+    "originalBytes": 358199,
+    "previewBytes": 74988
+  },
+  "assets/ai-campus/agent-observe.png": {
+    "file": "assets/previews/8e994740107fdc157988.webp",
+    "originalBytes": 200070,
+    "previewBytes": 74290
+  },
+  "assets/ai-campus/agent-inspire.png": {
+    "file": "assets/previews/0dad6ce95340ebdc2959.webp",
+    "originalBytes": 186545,
+    "previewBytes": 66784
+  },
+  "assets/ai-campus/agent-workflow.png": {
+    "file": "assets/previews/89477f67c5b3527dbfff.webp",
+    "originalBytes": 237605,
+    "previewBytes": 59894
+  },
+  "assets/ai-campus/agent-prompt.png": {
+    "file": "assets/previews/abbb92483dec0defe0a1.webp",
+    "originalBytes": 386078,
+    "previewBytes": 159240
+  },
+  "assets/ai-campus/teacher-certificate.jpg": {
+    "file": "assets/previews/da856033ac2920aaa35e.webp",
+    "originalBytes": 5355787,
+    "previewBytes": 102242
+  },
+  "assets/mazoo/mazoo-fullbody.png": {
+    "file": "assets/previews/0d3467b55606ac820ccb.webp",
+    "originalBytes": 2022558,
+    "previewBytes": 107790
+  },
+  "assets/mazoo/symbol-duck.png": {
+    "file": "assets/previews/8f9edc82d9ce157de4ed.webp",
+    "originalBytes": 641178,
+    "previewBytes": 60760
+  },
+  "assets/mazoo/symbol-fish.png": {
+    "file": "assets/previews/ada5e961949a3ef1a229.webp",
+    "originalBytes": 1719773,
+    "previewBytes": 101236
+  },
+  "assets/mazoo/symbol-shell.png": {
+    "file": "assets/previews/1401b154d2e4e3967b61.webp",
+    "originalBytes": 728247,
+    "previewBytes": 67314
+  },
+  "assets/2026/s20_1.jpg": {
+    "file": "assets/previews/bea4b286d7141c0786e9.webp",
+    "originalBytes": 220780,
+    "previewBytes": 54958
+  },
+  "assets/2026/s20_2.jpg": {
+    "file": "assets/previews/b7d932cb4a0c93bf496a.webp",
+    "originalBytes": 29414,
+    "previewBytes": 13768
+  },
+  "assets/2026/s20_3.jpg": {
+    "file": "assets/previews/80547816e12c69c530f7.webp",
+    "originalBytes": 31738,
+    "previewBytes": 16102
+  },
+  "assets/2026/s20_4.jpg": {
+    "file": "assets/previews/88a5284595e58ab19aa6.webp",
+    "originalBytes": 34661,
+    "previewBytes": 18488
+  },
+  "assets/mazoo/symbol-boat.png": {
+    "file": "assets/previews/8141c6c37a6ceb2cf6b0.webp",
+    "originalBytes": 1874066,
+    "previewBytes": 76036
+  },
+  "assets/mazoo/symbol-pear.png": {
+    "file": "assets/previews/df6cf10efa9c2a252bcd.webp",
+    "originalBytes": 727850,
+    "previewBytes": 68064
+  },
+  "assets/mazoo/product-postcards.jpg": {
+    "file": "assets/previews/88bfc879fa2a088199b9.webp",
+    "originalBytes": 7979670,
+    "previewBytes": 194262
+  },
+  "assets/mazoo/product-stickers-stamps.jpg": {
+    "file": "assets/previews/5d19c30f659c6b1bbc14.webp",
+    "originalBytes": 5927723,
+    "previewBytes": 155816
+  },
+  "assets/mazoo/symbol-flower.png": {
+    "file": "assets/previews/8d63ac1559734a64917f.webp",
+    "originalBytes": 978338,
+    "previewBytes": 58842
+  },
+  "assets/mazoo/product-keychains.jpg": {
+    "file": "assets/previews/8dcbf517dd478379bd68.webp",
+    "originalBytes": 8561719,
+    "previewBytes": 231288
+  },
+  "assets/mazoo/pitch-deck-1.jpg": {
+    "file": "assets/previews/3d46d19005b76dbe8604.webp",
+    "originalBytes": 794562,
+    "previewBytes": 120232
+  },
+  "assets/mazoo/product-phone-stands.jpg": {
+    "file": "assets/previews/5f6a9b523eaff6974c8f.webp",
+    "originalBytes": 8996614,
+    "previewBytes": 230970
+  },
+  "assets/2026/s24_2.jpg": {
+    "file": "assets/previews/1253eeb80a27ed21a63d.webp",
+    "originalBytes": 46709,
+    "previewBytes": 28266
+  },
+  "assets/2026/s24_1.jpg": {
+    "file": "assets/previews/b9517b8533d430256e6a.webp",
+    "originalBytes": 38325,
+    "previewBytes": 24120
+  },
+  "assets/2026/s24_3.jpg": {
+    "file": "assets/previews/4304afec2af2c919656a.webp",
+    "originalBytes": 69234,
+    "previewBytes": 51822
+  },
+  "assets/mazoo/pitch-deck-2.jpg": {
+    "file": "assets/previews/1b5f11f81377e73ef98b.webp",
+    "originalBytes": 1045130,
+    "previewBytes": 178166
+  },
+  "assets/mazoo/pitch-deck-3.jpg": {
+    "file": "assets/previews/b2e05e6f52e15e588195.webp",
+    "originalBytes": 806540,
+    "previewBytes": 117986
+  },
+  "assets/2026/s24_4.jpg": {
+    "file": "assets/previews/1a78815a4007aa34fdd1.webp",
+    "originalBytes": 385818,
+    "previewBytes": 209706
+  },
+  "assets/2026/s24_5.jpg": {
+    "file": "assets/previews/a36bed7ad0b7f5eea4d6.webp",
+    "originalBytes": 338333,
+    "previewBytes": 201840
+  },
+  "assets/2026/s24_6.jpg": {
+    "file": "assets/previews/cde90d9884fc965f1be4.webp",
+    "originalBytes": 379746,
+    "previewBytes": 242208
+  },
+  "assets/2026/s7_1.jpg": {
+    "file": "assets/previews/5a9f081d858394398250.webp",
+    "originalBytes": 272413,
+    "previewBytes": 128584
+  },
+  "assets/2026/s24_7.jpg": {
+    "file": "assets/previews/f0939f399e1cb554110f.webp",
+    "originalBytes": 391928,
+    "previewBytes": 254796
+  },
+  "assets/2026/s8_1.jpg": {
+    "file": "assets/previews/ec7737bcd8d5f61f4cdd.webp",
+    "originalBytes": 157324,
+    "previewBytes": 86550
+  },
+  "assets/2026/s7_2.jpg": {
+    "file": "assets/previews/196a69ca844dd0c38266.webp",
+    "originalBytes": 215520,
+    "previewBytes": 102124
+  },
+  "assets/2026/s8_2.jpg": {
+    "file": "assets/previews/07c50411434bcd6476fd.webp",
+    "originalBytes": 115788,
+    "previewBytes": 68724
+  },
+  "assets/2026/s8_6.jpg": {
+    "file": "assets/previews/5a72c7c3f733c06bb9d5.webp",
+    "originalBytes": 322360,
+    "previewBytes": 153564
+  },
+  "assets/2026/s8_5.jpg": {
+    "file": "assets/previews/e83eda66a14262d7e729.webp",
+    "originalBytes": 539279,
+    "previewBytes": 317646
+  },
+  "assets/2026/s8_3.jpg": {
+    "file": "assets/previews/6bca774bd002f50bf27e.webp",
+    "originalBytes": 93231,
+    "previewBytes": 47214
+  },
+  "assets/2026/s8_7.jpg": {
+    "file": "assets/previews/dff1decb4ff4086441e0.webp",
+    "originalBytes": 447341,
+    "previewBytes": 300250
+  },
+  "assets/2026/s8_8.jpg": {
+    "file": "assets/previews/53394bdc2d80f6a3ccba.webp",
+    "originalBytes": 713377,
+    "previewBytes": 326758
+  },
+  "assets/2026/s8_10.jpg": {
+    "file": "assets/previews/993084aec5cbd41d43e0.webp",
+    "originalBytes": 718378,
+    "previewBytes": 345702
+  },
+  "assets/2026/s8_9.jpg": {
+    "file": "assets/previews/0d5ca6da19a49d0bec0e.webp",
+    "originalBytes": 1068230,
+    "previewBytes": 667892
+  },
+  "assets/2026/s8_14.jpg": {
+    "file": "assets/previews/90bd6e73e506565f7c81.webp",
+    "originalBytes": 778152,
+    "previewBytes": 347672
+  },
+  "assets/2026/s8_15.jpg": {
+    "file": "assets/previews/0140cebe48f0f0601059.webp",
+    "originalBytes": 748071,
+    "previewBytes": 324724
+  },
+  "assets/2026/s8_17.jpg": {
+    "file": "assets/previews/a33690eb4140d77354ee.webp",
+    "originalBytes": 544579,
+    "previewBytes": 217468
+  },
+  "assets/2026/s8_18.jpg": {
+    "file": "assets/previews/3b495440fdc0c5688d77.webp",
+    "originalBytes": 347362,
+    "previewBytes": 117354
+  },
+  "assets/2026/s8_16.jpg": {
+    "file": "assets/previews/643a0dcc9ca485ea5a7c.webp",
+    "originalBytes": 1043552,
+    "previewBytes": 532066
+  },
+  "assets/2026/s9_1.jpg": {
+    "file": "assets/previews/2aa73f32ecc3a6a4e6e6.webp",
+    "originalBytes": 159719,
+    "previewBytes": 52900
+  },
+  "assets/2026/s9_2.jpg": {
+    "file": "assets/previews/39ca7d284058a734a005.webp",
+    "originalBytes": 472199,
+    "previewBytes": 133510
+  },
+  "assets/2026/s8_19.jpg": {
+    "file": "assets/previews/18fd7c5f0274801124b3.webp",
+    "originalBytes": 564251,
+    "previewBytes": 253684
+  },
+  "assets/2026/s9_13.jpg": {
+    "file": "assets/previews/d65b09729a38735db675.webp",
+    "originalBytes": 886416,
+    "previewBytes": 105040
+  },
+  "assets/2026/s9_15.png": {
+    "file": "assets/previews/77c534562d8a58ea88cf.webp",
+    "originalBytes": 177710,
+    "previewBytes": 15742
+  },
+  "assets/2026/s9_5.jpg": {
+    "file": "assets/previews/202079cee81fef5ffa90.webp",
+    "originalBytes": 179996,
+    "previewBytes": 115982
+  },
+  "assets/2026/s9_14.jpg": {
+    "file": "assets/previews/9f5b3e177789b8f74c7f.webp",
+    "originalBytes": 789551,
+    "previewBytes": 79674
+  },
+  "assets/2026/s9_12.jpg": {
+    "file": "assets/previews/4b0c14d33333d0444bea.webp",
+    "originalBytes": 117705,
+    "previewBytes": 69980
+  },
+  "assets/2026/s9_8.jpg": {
+    "file": "assets/previews/eae6bda442bda375474f.webp",
+    "originalBytes": 482812,
+    "previewBytes": 167560
+  },
+  "assets/2026/s9_9.jpg": {
+    "file": "assets/previews/0a225c4b0696fe1cc4a0.webp",
+    "originalBytes": 636137,
+    "previewBytes": 275128
+  },
+  "assets/2026/s9_16.jpg": {
+    "file": "assets/previews/1b0962ae8f445e6f2c0c.webp",
+    "originalBytes": 283539,
+    "previewBytes": 136820
+  },
+  "assets/2026/s9_18.jpg": {
+    "file": "assets/previews/db23b02fea0689ec28f3.webp",
+    "originalBytes": 364778,
+    "previewBytes": 261666
+  },
+  "assets/2026/s9_7.jpg": {
+    "file": "assets/previews/c9dfc4a0a4aa6faf2031.webp",
+    "originalBytes": 949715,
+    "previewBytes": 482580
+  },
+  "assets/museum/wechat-1.jpg": {
+    "file": "assets/previews/4e959eba36c8303e8d95.webp",
+    "originalBytes": 1324656,
+    "previewBytes": 23822
+  },
+  "assets/museum/wechat-2.jpg": {
+    "file": "assets/previews/c8d11c5577aee3a65dc2.webp",
+    "originalBytes": 1641270,
+    "previewBytes": 50458
+  },
+  "assets/museum/wechat-3.jpg": {
+    "file": "assets/previews/8e94d7f38a2507dff893.webp",
+    "originalBytes": 1712168,
+    "previewBytes": 29908
+  },
+  "assets/2026/s9_17.jpg": {
+    "file": "assets/previews/a366546d353618d43987.webp",
+    "originalBytes": 517854,
+    "previewBytes": 377524
+  },
+  "assets/cichutingchao/work-overview.jpg": {
+    "file": "assets/previews/73d76eeebcb6e827004c.webp",
+    "originalBytes": 70963,
+    "previewBytes": 32664
+  },
+  "assets/2026/s9_10.jpg": {
+    "file": "assets/previews/9c2a4b392e75f44a5712.webp",
+    "originalBytes": 1000045,
+    "previewBytes": 547272
+  },
+  "assets/cichutingchao/suspension-structure-v2.png": {
+    "file": "assets/previews/fccec4f37e36189280b4.webp",
+    "originalBytes": 1343432,
+    "previewBytes": 60740
+  },
+  "assets/cichutingchao/airport-site.jpg": {
+    "file": "assets/previews/094ce88ca55bba6776c9.webp",
+    "originalBytes": 2688787,
+    "previewBytes": 140788
+  },
+  "assets/2026/s14_1.jpg": {
+    "file": "assets/previews/935fe1ee2664d75cd2ea.webp",
+    "originalBytes": 437579,
+    "previewBytes": 132478
+  },
+  "assets/2026/s16_2.jpg": {
+    "file": "assets/previews/94d0bb9abba68730b11f.webp",
+    "originalBytes": 192995,
+    "previewBytes": 111782
+  },
+  "assets/2026/s16_1.jpg": {
+    "file": "assets/previews/52e64f72ac4871245550.webp",
+    "originalBytes": 510856,
+    "previewBytes": 210442
+  },
+  "assets/2026/s16_3.jpg": {
+    "file": "assets/previews/7cc8602dc81631fb7d90.webp",
+    "originalBytes": 464843,
+    "previewBytes": 218856
+  }
+}

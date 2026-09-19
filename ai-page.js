@@ -7,9 +7,9 @@
  if(!reduced&&matchMedia('(hover:hover)').matches)hero.addEventListener('pointermove',e=>{const r=canvas.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;canvas.querySelectorAll('.ai-float').forEach((card,i)=>{const depth=[4,7,5,8][i]||4;card.style.setProperty('--px',x*depth+'px');card.style.setProperty('--py',y*depth+'px')})});
  hero.addEventListener('pointerleave',()=>canvas.querySelectorAll('.ai-float').forEach(card=>{card.style.setProperty('--px','0px');card.style.setProperty('--py','0px')}));
  const audienceCards=[...page.querySelectorAll('.ai-audience-card')],audienceHover=matchMedia('(hover: hover) and (pointer: fine)'),audienceMobile=matchMedia('(max-width: 700px)');
- const showAllAudiences=()=>!audienceHover.matches||audienceMobile.matches;
+ const showAllAudiences=()=>audienceMobile.matches;
  const expandAudience=card=>audienceCards.forEach(item=>{const open=showAllAudiences()||item===card;item.setAttribute('aria-expanded',String(open));item.querySelector('.ai-card-detail')?.setAttribute('aria-hidden',String(!open))});
- audienceCards.forEach(card=>{card.addEventListener('pointerenter',event=>{if(event.pointerType!=='touch'&&!showAllAudiences())expandAudience(card)});card.addEventListener('focus',()=>expandAudience(card))});
+ audienceCards.forEach(card=>{card.addEventListener('pointerenter',event=>{if(event.pointerType!=='touch'&&!showAllAudiences())expandAudience(card)});card.addEventListener('focus',()=>expandAudience(card));card.addEventListener('click',()=>expandAudience(card))});
  const configureAudiences=()=>expandAudience(audienceCards.find(card=>card.getAttribute('aria-expanded')==='true')||audienceCards[0]);
  audienceHover.addEventListener('change',configureAudiences);audienceMobile.addEventListener('change',configureAudiences);configureAudiences();
  const steps=[...page.querySelectorAll('[data-story-step]')],links=[...page.querySelectorAll('[data-story-link]')];

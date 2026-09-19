@@ -7,7 +7,7 @@ for(const page of pages){const html=fs.readFileSync(path.join(root,page),'utf8')
  if(/<iframe\b/i.test(html))throw new Error('Unexpected wrapper in '+page);
  for(const match of html.matchAll(/(?:src|href|data-image)="([^"]+)"/g)){
  const ref=match[1].replace(/&amp;/g,'&');if(/^(mailto:|tel:|https?:|#)/.test(ref))continue;
- const [rel,hash]=ref.split('#');const resolved=path.resolve(root,path.dirname(page),rel);
+ const [url,hash]=ref.split('#');const rel=url.split('?')[0];const resolved=path.resolve(root,path.dirname(page),rel);
  if(!fs.existsSync(resolved))throw new Error('Missing link: '+page+' -> '+ref);
  if(hash&&path.extname(resolved)==='.html'){const target=fs.readFileSync(resolved,'utf8');if(!target.includes('id="'+hash+'"'))throw new Error('Missing anchor '+ref)}
  files.add(path.relative(root,resolved));count++;
