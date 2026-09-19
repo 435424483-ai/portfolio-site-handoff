@@ -37,15 +37,13 @@ body:has(.mazoo-rebrand) { --return-bg:#fff0f4; --return-hover:#fce3e9; --return
 body:has(.case-top[data-project="museum"]) { --return-bg:#f4ede3; --return-hover:#eadcca; --return-border:#d8b995; --return-ink:#865527; --return-accent:#a06428; --return-shadow:#a0642819; }
 body:has(.case-top[data-project="cichutingchao"]) { --return-bg:#edf2e9; --return-hover:#e1eadb; --return-border:#bdcbaa; --return-ink:#5f7651; --return-accent:#7f986d; --return-shadow:#61795619; }
 
-/* Homepage project actions use the same four project accents. */
-#work .project-scene.blue .scene-more { background:#6875d8; border-color:#6875d8; box-shadow:0 6px 18px #6875d823; }
-#work .project-scene.red .scene-more { background:#d97a97; border-color:#d97a97; box-shadow:0 6px 18px #d97a9723; }
-#work .project-scene.green .scene-more { background:#a06428; border-color:#a06428; box-shadow:0 6px 18px #a0642821; }
-#work .project-scene.teal .scene-more { background:#7f986d; border-color:#7f986d; box-shadow:0 6px 18px #61795621; }
-#work .project-scene.blue .scene-more:hover { background:#5663c2; }
-#work .project-scene.red .scene-more:hover { background:#c86684; }
-#work .project-scene.green .scene-more:hover { background:#87531f; }
-#work .project-scene.teal .scene-more:hover { background:#6d865d; }
+/* Match all homepage project actions to the main hero action. */
+#work .project-scene .scene-more {
+  background:#a65331;
+  border-color:#a65331;
+  box-shadow:0 6px 18px #a6533123;
+}
+#work .project-scene .scene-more:hover { background:#8e4527; border-color:#8e4527; }
 
 body:has(.ai-case) .mobile-home-link { background:#f0effdf5; border-color:#cbc8ef; color:#525fb7; box-shadow:0 6px 24px #6875d81a; }
 body:has(.mazoo-rebrand) .mobile-home-link { background:#fff0f4f5; border-color:#efbfd0; color:#a64f6b; box-shadow:0 6px 24px #d97a971c; }
