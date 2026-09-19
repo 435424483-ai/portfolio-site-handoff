@@ -1,0 +1,10 @@
+/* Keep the 1440px desktop composition on phones, scaled by the browser.
+   Phone viewport heights grow in CSS pixels when this layout is scaled down;
+   use the desktop reference height for project covers instead of phone vh. */
+@media (hover: none) and (pointer: coarse) {
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  #work .project-scene { min-height: 860px; }
+  #work .project-scene .card-image,
+  #work .project-scene .card-copy { min-height: 620px; }
+  #work .project-scene .card-image { height: auto; }
+}
