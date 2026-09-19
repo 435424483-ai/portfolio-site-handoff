@@ -7,7 +7,8 @@
   color: #211d1a;
 }
 #intro .hero-name span { margin-top: 12px; letter-spacing: 0; }
-#main a.return-home {
+#main a.return-home,
+#main a.next-project-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -25,8 +26,10 @@
   text-decoration: none;
   box-shadow: 0 5px 18px var(--return-shadow, #49352612);
 }
-#main a.return-home:hover { background: var(--return-hover, #ecdfd2); border-color: var(--return-accent, #96745b); }
-#main a.return-home:focus-visible { outline: 3px solid var(--return-accent, #96745b); outline-offset: 4px; }
+#main a.return-home:hover,
+#main a.next-project-link:hover { background: var(--return-hover, #ecdfd2); border-color: var(--return-accent, #96745b); }
+#main a.return-home:focus-visible,
+#main a.next-project-link:focus-visible { outline: 3px solid var(--return-accent, #96745b); outline-offset: 4px; }
 
 /* Each project keeps its own visual language. */
 body:has(.ai-case) { --return-bg:#f0effd; --return-hover:#e5e3fa; --return-border:#cbc8ef; --return-ink:#525fb7; --return-accent:#6875d8; --return-shadow:#6875d81a; }
@@ -50,5 +53,6 @@ body:has(.case-top[data-project="museum"]) .mobile-home-link { background:#f4ede
 body:has(.case-top[data-project="cichutingchao"]) .mobile-home-link { background:#edf2e9f5; border-color:#bdcbaa; color:#5f7651; box-shadow:0 6px 24px #61795619; }
 @media (hover: none) and (pointer: coarse) {
   #intro .hero-name { font-size: 50px; }
-  #main a.return-home { min-height: 96px; padding: 18px 32px; font-size: 30px; }
+  #main a.return-home,
+  #main a.next-project-link { min-height: 96px; padding: 18px 32px; font-size: 30px; }
 }
