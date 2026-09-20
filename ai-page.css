@@ -607,6 +607,56 @@ html:not(.js) .ai-reveal, html:not(.js) .ai-assistant { opacity: 1; transform: n
 
 .ai-course-process .ai-course-static { cursor: default; }
 
+/* Case-study first hero: project, role and contribution are visible at a glance. */
+.ai-hero-copy .ai-project-title {
+  max-width: 610px;
+  margin: 16px 0 18px;
+  font-size: clamp(42px,10.2cqw,68px);
+  line-height: 1.06;
+  font-weight: 600;
+  letter-spacing: -.055em;
+}
+.ai-hero-copy .ai-project-slogan {
+  margin: 0 0 22px;
+  font-size: clamp(25px,5.5cqw,34px)!important;
+  line-height: 1.35;
+  font-weight: 500;
+  letter-spacing: -.035em;
+  color: var(--ai-text);
+}
+.ai-hero-copy .ai-project-slogan span { color: var(--ai-indigo); }
+.ai-project-role {
+  max-width: 600px;
+  margin: 0 0 14px;
+  padding: 13px 16px;
+  border-left: 3px solid var(--ai-indigo);
+  border-radius: 0 12px 12px 0;
+  background: rgba(255,255,255,.5);
+}
+.ai-project-role > span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--ai-indigo);
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: .12em;
+}
+.ai-project-role > p {
+  margin: 0;
+  color: var(--ai-blue);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+.ai-hero-copy .ai-lede {
+  margin: 0;
+  max-width: 600px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.ai-capability-card p { white-space: nowrap; }
+
 /* Consistent typography and spacing for the two introductory summaries. */
 .ai-case .ai-overview, .ai-case .ai-contribution { grid-template-columns: minmax(0,.85fr) minmax(0,1.65fr); column-gap: 7%; }
 .ai-case .ai-overview h2, .ai-case .ai-contribution h2 { font-size: clamp(28px,2.8vw,38px)!important; line-height: 1.3; margin: 16px 0 20px; }
