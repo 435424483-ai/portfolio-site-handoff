@@ -608,6 +608,22 @@ html:not(.js) .ai-reveal, html:not(.js) .ai-assistant { opacity: 1; transform: n
 .ai-course-process .ai-course-static { cursor: default; }
 
 /* Audience context now introduces the information-translation process. */
+.ai-translation-heading {
+  padding-bottom: 88px;
+}
+.ai-case .ai-translation-heading h2 {
+  max-width: 850px;
+  margin: 18px 0 22px;
+  font-size: clamp(34px,4vw,52px)!important;
+  line-height: 1.18;
+}
+.ai-translation-heading > p:last-child {
+  max-width: 780px;
+  margin: 0;
+  color: var(--ai-muted);
+  font-size: 16px;
+  line-height: 1.9;
+}
 .ai-translation > .ai-audience-subsection {
   padding: 0 0 120px;
 }
@@ -624,6 +640,13 @@ html:not(.js) .ai-reveal, html:not(.js) .ai-assistant { opacity: 1; transform: n
 }
 .ai-audience-subsection + .ai-story {
   padding-top: 20px;
+}
+.ai-story-copy h3 {
+  margin: 18px 0 20px;
+  font-size: clamp(28px,3vw,40px)!important;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: -.035em;
 }
 
 /* Case-study first hero: project, role and contribution are visible at a glance. */
