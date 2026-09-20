@@ -607,6 +607,25 @@ html:not(.js) .ai-reveal, html:not(.js) .ai-assistant { opacity: 1; transform: n
 
 .ai-course-process .ai-course-static { cursor: default; }
 
+/* Audience context now introduces the information-translation process. */
+.ai-translation > .ai-audience-subsection {
+  padding: 0 0 120px;
+}
+.ai-audience-subsection .ai-section-head {
+  margin-bottom: 48px;
+}
+.ai-case .ai-audience-subsection .ai-section-head h3 {
+  margin: 18px 0 0;
+  max-width: 720px;
+  font-size: clamp(28px,2.8vw,38px)!important;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -.035em;
+}
+.ai-audience-subsection + .ai-story {
+  padding-top: 20px;
+}
+
 /* Case-study first hero: project, role and contribution are visible at a glance. */
 .ai-hero-copy .ai-project-title {
   max-width: 610px;
