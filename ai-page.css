@@ -754,3 +754,7 @@ html:not(.js) .ai-reveal, html:not(.js) .ai-assistant { opacity: 1; transform: n
   white-space: nowrap;
 }
 .ai-capability-heading span { color: #fff; font-weight: 600; }
+.ai-case .ai-capability-canvas { top: 82px; }
+
+/* Cap scroll-story height so tall mobile viewports do not create empty pages. */
+.ai-translation .ai-story-step { min-height: min(66vh,620px); }
