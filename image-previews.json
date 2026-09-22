@@ -678,5 +678,10 @@
     "file": "assets/previews/7cc8602dc81631fb7d90.webp",
     "originalBytes": 464843,
     "previewBytes": 218856
+  },
+  "assets/ai-campus/teacher-certificate-updated.png": {
+    "file": "assets/previews/teacher-certificate-updated.jpg",
+    "originalBytes": 14829498,
+    "previewBytes": 114099
   }
 }
