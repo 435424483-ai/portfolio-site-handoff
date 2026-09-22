@@ -57,6 +57,7 @@ body:has(.ai-case)>.site-header{position:fixed;top:18px;left:50%;transform:trans
 #ai-story-3 .ai-comms-card { flex: 0 0 calc((100% - 36px)/3); min-width: 0; scroll-snap-align: start; }
 #ai-story-3 .ai-comms-card .ai-picture { width: 100%; height: auto; grid-row: auto; padding: 6px; border-radius: 14px; background: #edf1fc; overflow: hidden; }
 #ai-story-3 .ai-comms-card .ai-picture img { width: 100%; height: auto; display: block; object-fit: contain; border-radius: 8px; }
+#ai-story-3 .ai-comms-card .ai-picture { cursor: default; }
 #ai-story-3 .ai-comms-card header { padding: 16px 4px 0; }
 #ai-story-3 .ai-comms-card header span { font-size: 10px; letter-spacing: .08em; color: var(--ai-indigo); }
 #ai-story-3 .ai-comms-card h4 { font-size: 15px; font-weight: 500; line-height: 1.5; margin: 8px 0; }
